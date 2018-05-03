@@ -1,2 +1,2 @@
 # libsolidity
-library of solidity contracts
+*Library of Solidity Contracts*
