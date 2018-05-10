@@ -8,7 +8,7 @@ contract HasERC20Token {
 	function hasToken(
 		address _tokenAddress,
 		address _who
-	) view returns (bool) {
+	) public view returns (bool) {
 		ERC20Basic tk = ERC20Basic(_tokenAddress);	
 		uint bal = tk.balanceOf(_who);
 		return (bal > 0);
